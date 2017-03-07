@@ -1,0 +1,116 @@
+/*--------------------------整体使用的样式-----------------*/
+li{
+	list-style-type: none;
+}
+a{
+	color: black;
+}
+.baidu-blue{
+	color: #3385ff;
+}
+
+
+/*------------------------最上层列表部分-------------------*/
+.top{
+	width: 100%;
+	height: 120px;
+}
+.top ul{
+	float: right;
+}
+.top li{
+	float: left;
+	font-size: 11px;
+	margin-left: 20px;
+
+}
+.top li h3{
+	margin: 0px;
+	line-height: 17px;
+}
+.top a:hover{
+	color: blue;
+}
+/*更多产品部分*/
+.more{
+	background: #3385ff;
+	color: white;
+	height: 20px;
+	width: 54px;
+	margin-left: 31px !important;
+	padding: 3px 5px;
+	margin-top: -3px !important;
+	margin-right: 10px !important;
+}
+
+/*------------------中间搜索部分---------------------*/
+.search{
+	height: 600px;
+}
+
+.logo{
+	width: 270px;
+	height: 129px;
+	margin: 0px auto;
+	text-align: center;
+}
+.search-box{
+	text-align: center;
+}
+.search-box form{
+	width: 637px;
+	height: 36px;
+	display: inline-block;
+}
+.search-box-main{
+	width: 530px;
+	height: 32px;
+	border: 1px solid #ADADAD;
+}
+.search-box-main:hover{
+	border: 1px solid #666;
+}
+.submit{
+	height: 36px;
+	width: 100px;
+	background: #3385ff;
+	color: white;
+	border: 0px solid #ddd;
+	margin-left: -5px;
+}
+
+/*-------------------底部部分---------------------*/
+.footer{
+	text-align: center;
+	height: 150px;
+}
+.footer p{
+	color: #999;
+	font-size: 12px;
+	margin: 5px;
+	line-height: 20px;
+}
+.footer a{
+	color: #999;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.erweima{
+	background: url(../images/saoma.png) no-repeat;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+}
+/*底部小图标*/
+.icon-1{
+	background: url(../images/icon-1.png) no-repeat;
+	height: 16px;
+	width: 18px;
+	display: inline-block;
+}
+.icon-2{
+	background: url(../images/icon-2.png) no-repeat;
+	height: 16px;
+	width: 18px;
+	display: inline-block;
+}
