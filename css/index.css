@@ -17,7 +17,7 @@ a{
 
 /*------------------------最上层列表部分-------------------*/
 .top{
-	width: 100%;
+	width: auto;
 	height: 120px;
 	margin-top: 20px;
 }
@@ -50,16 +50,18 @@ a{
 }
 /*更多产品js后出现部分*/
 .list{
-	z-index: 1;
-	width: 80px;
-	height: 100%;
+	z-index: 2;
+	width: 90px;
+	height: 923px;
 	background: black;
 	overflow: hidden;
+	margin-top: -30px;
 }
 
 /*------------------中间搜索部分---------------------*/
 .search{
 	height: 600px;
+	width: auto;
 }
 
 .logo{
@@ -97,7 +99,7 @@ a{
 .footer{
 	text-align: center;
 	height: 150px;
-	width: 100%;
+	width: auto;
 }
 .footer p{
 	color: #999;
