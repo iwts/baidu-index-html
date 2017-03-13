@@ -17,12 +17,15 @@ a{
 
 /*------------------------最上层列表部分-------------------*/
 .top{
-	width: auto;
+	width: 100%;
+	position: relative;
 	height: 120px;
 	margin-top: 20px;
 }
 .top ul{
-	float: right;
+	position: absolute;
+	width: 511px;
+	right: 0px;
 }
 .top li{
 	float: left;
@@ -61,7 +64,8 @@ a{
 /*------------------中间搜索部分---------------------*/
 .search{
 	height: 600px;
-	width: auto;
+	width: 800px;
+	margin: 0px auto;
 }
 
 .logo{
@@ -99,7 +103,8 @@ a{
 .footer{
 	text-align: center;
 	height: 150px;
-	width: auto;
+	width: 800px;
+	margin: 0px auto;
 }
 .footer p{
 	color: #999;
