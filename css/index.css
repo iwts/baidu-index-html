@@ -14,6 +14,10 @@ a{
 	color: #3385ff;
 }
 
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
 
 /*------------------------最上层列表部分-------------------*/
 .top{
@@ -53,12 +57,15 @@ a{
 }
 /*更多产品js后出现部分*/
 .list{
-	z-index: 2;
+	z-index: 1;
 	width: 90px;
-	height: 923px;
+	height: 100%;		/*设定html与body为100%后，才可以令div全屏100%*/
+	min-height: 600px;	/*设置最小高度，可以防止伸缩后div块内容被切割*/
 	background: black;
 	overflow: hidden;
-	margin-top: -30px;
+	margin-top: -140px;
+	float: right;
+	/*display: none;*/
 }
 
 /*------------------中间搜索部分---------------------*/
