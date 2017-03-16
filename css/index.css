@@ -23,13 +23,13 @@ html,body{
 .top{
 	width: 100%;
 	position: relative;
-	height: 120px;
+	height: 45px;
 	margin-top: 20px;
 }
 .top ul{
 	position: absolute;
 	width: 511px;
-	right: -28px;
+	right: -16px;
 }
 .top li{
 	float: left;
@@ -50,7 +50,7 @@ html,body{
 	color: white;
 	height: 100%;
 	min-height: 600px;
-	margin-top: -140px;
+	margin-top: -66px;
 	width: 85px;
 	float: right;
 	border: 1px solid #ddd;
@@ -62,8 +62,49 @@ html,body{
 	color: white;
 	height: 24px;
 	width: 70px;
-	margin-top: 10px;
+	margin-top: 16px;
+	text-align: center;
+	line-height: 25px;
 	font-size: 12px;
+}
+.more dd{
+	height: 88px;
+	width: 100px;
+	margin-left: 14px;
+}
+.more a{
+	display: block;
+	font-size: 10px;
+}
+.music{
+	background: url(../images/more-music.png) no-repeat;
+	display: block;
+	width: 46px;
+	height: 36px;
+}
+.picture{
+	background: url(../images/more-picture.png) no-repeat;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.know{
+	background: url(../images/more-know.png) no-repeat;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.lib{
+	background: url(../images/more-lib.png) no-repeat;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.fengyunbang{
+	background: url(../images/more-fengyunbang.png) no-repeat;
+	display: block;
+	width: 36px;
+	height: 36px;
 }
 /*更多产品js后出现部分*/
 .list{
@@ -81,9 +122,9 @@ html,body{
 
 /*------------------中间搜索部分---------------------*/
 .search{
-	height: 600px;
+	height: 485px;
 	width: 800px;
-	margin: 0px auto;
+	margin: 100px auto;
 }
 
 .logo{
