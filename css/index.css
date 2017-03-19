@@ -57,53 +57,77 @@ html,body{
 	z-index: 1;
 	overflow: hidden;
 }
+.more p{
+	margin-left: 8px;
+}
 .more dt{
 	background: #3385ff;
 	color: white;
 	height: 24px;
 	width: 70px;
 	margin-top: 16px;
+	margin-left: 6px;
 	text-align: center;
 	line-height: 25px;
 	font-size: 12px;
 }
 .more dd{
-	height: 88px;
-	width: 100px;
-	margin-left: 14px;
+	height: 62px;
+	width: 41px;
+	margin-left: 11px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
 }
 .more a{
+	color: #999;
 	display: block;
 	font-size: 10px;
+	text-decoration: none;
+}
+.more a:hover{
+	text-decoration: underline;
+}
+.more span{
+	margin-left: -7px;
+	text-decoration: underline;
 }
 .music{
-	background: url(../images/more-music.png) no-repeat;
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -72px 0px;
 	display: block;
-	width: 46px;
+	width: 42px;
 	height: 36px;
 }
 .picture{
-	background: url(../images/more-picture.png) no-repeat;
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -112px 0px;
 	display: block;
 	width: 36px;
 	height: 36px;
+	margin-left: 4px;
 }
 .know{
-	background: url(../images/more-know.png) no-repeat;
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -36px 0px;
 	display: block;
 	width: 36px;
 	height: 36px;
+	margin-left: 2px;
 }
 .lib{
-	background: url(../images/more-lib.png) no-repeat;
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -144px 0px;
 	display: block;
 	width: 36px;
 	height: 36px;
 }
 .fengyunbang{
-	background: url(../images/more-fengyunbang.png) no-repeat;
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -180px 0px;
 	display: block;
-	width: 36px;
+	width: 42px;
 	height: 36px;
 }
 /*更多产品js后出现部分*/
