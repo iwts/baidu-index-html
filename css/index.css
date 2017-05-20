@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*--------------------------整体使用的样式-----------------*/
 *{
 	padding: 0px;
@@ -224,4 +225,232 @@ html,body{
 	height: 16px;
 	width: 18px;
 	display: inline-block;
+=======
+/*--------------------------整体使用的样式-----------------*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	list-style-type: none;
+}
+a{
+	color: black;
+}
+.baidu-blue{
+	color: #3385ff;
+}
+
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+
+/*------------------------最上层列表部分-------------------*/
+.top{
+	width: 100%;
+	position: relative;
+	height: 45px;
+	margin-top: 20px;
+}
+.top ul{
+	position: absolute;
+	width: 511px;
+	right: -16px;
+}
+.top li{
+	float: left;
+	font-size: 11px;
+	margin-left: 20px;
+
+}
+.top li h3{
+	margin: 0px;
+	line-height: 17px;
+}
+.top a:hover{
+	color: blue;
+}
+
+/*更多产品部分,整体隐藏只显示 dt ，添加 js 后完成 list 效果*/
+.more{
+	/*默认背景白，边线透明占位置*/
+	background: white;
+	color: white;
+	height: 100%;
+	min-height: 600px;
+	margin-top: -66px;
+	width: 85px;
+	float: right;
+	border: 1px solid transparent;
+	z-index: 1;
+	overflow: hidden;
+}
+.more-js{
+	background: #f9f9f9;
+	color: white;
+	height: 100%;
+	min-height: 600px;
+	margin-top: -66px;
+	width: 85px;
+	float: right;
+	border: 1px solid #ddd;
+	z-index: 1;
+	overflow: hidden;
+}
+.more p{
+	margin-left: 8px;
+}
+.more dt{
+	/*默认字白，背景蓝，不用新类*/
+	background: #3385ff;
+	color: white;
+	height: 24px;
+	width: 70px;
+	margin-top: 16px;
+	margin-left: 6px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
+}
+.more dd{
+	height: 62px;
+	width: 41px;
+	margin-left: 11px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+	/*默认是隐藏，js改成inline-block,不用新类*/
+	display: none;
+}
+.more a{
+	color: #999;
+	display: block;
+	font-size: 10px;
+	text-decoration: none;
+}
+.more a:hover{
+	text-decoration: underline;
+}
+.more span{
+	margin-left: -7px;
+	text-decoration: underline;
+}
+
+/*设置列表中各个小块*/
+.music{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -72px 0px;
+	display: block;
+	width: 42px;
+	height: 36px;
+}
+.picture{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -112px 0px;
+	display: block;
+	width: 36px;
+	height: 36px;
+	margin-left: 4px;
+}
+.know{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -36px 0px;
+	display: block;
+	width: 36px;
+	height: 36px;
+	margin-left: 2px;
+}
+.lib{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -144px 0px;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.fengyunbang{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -180px 0px;
+	display: block;
+	width: 42px;
+	height: 36px;
+}
+
+/*------------------中间搜索部分---------------------*/
+.search{
+	height: 485px;
+	width: 800px;
+	margin: 100px auto;
+}
+
+.logo{
+	width: 270px;
+	height: 129px;
+	margin: 0px auto;
+	text-align: center;
+}
+.search-box{
+	text-align: center;
+}
+.search-box form{
+	width: 637px;
+	height: 36px;
+	display: inline-block;
+}
+.search-box-main{
+	width: 530px;
+	height: 32px;
+	border: 1px solid #ADADAD;
+}
+.search-box-main:hover{
+	border: 1px solid #666;
+}
+.submit{
+	height: 36px;
+	width: 100px;
+	background: #3385ff;
+	color: white;
+	border: 0px solid #ddd;
+	margin-left: -5px;
+}
+
+/*-------------------底部部分---------------------*/
+.footer{
+	text-align: center;
+	height: 150px;
+	width: 800px;
+	margin: 0px auto;
+}
+.footer p{
+	color: #999;
+	font-size: 12px;
+	margin: 5px;
+	line-height: 20px;
+}
+.footer a{
+	color: #999;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.erweima{
+	background: url(../images/saoma.png) no-repeat;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+}
+/*底部小图标*/
+.icon-1{
+	background: url(../images/icon-1.png) no-repeat;
+	height: 16px;
+	width: 18px;
+	display: inline-block;
+}
+.icon-2{
+	background: url(../images/icon-2.png) no-repeat;
+	height: 16px;
+	width: 18px;
+	display: inline-block;
+>>>>>>> origin/master
 }
