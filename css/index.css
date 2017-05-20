@@ -14,15 +14,22 @@ a{
 	color: #3385ff;
 }
 
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
 
 /*------------------------最上层列表部分-------------------*/
 .top{
 	width: 100%;
-	height: 120px;
+	position: relative;
+	height: 45px;
 	margin-top: 20px;
 }
 .top ul{
-	float: right;
+	position: absolute;
+	width: 511px;
+	right: -16px;
 }
 .top li{
 	float: left;
@@ -37,29 +44,117 @@ a{
 .top a:hover{
 	color: blue;
 }
-/*更多产品部分*/
+
+/*更多产品部分,整体隐藏只显示 dt ，添加 js 后完成 list 效果*/
 .more{
+	/*默认背景白，边线透明占位置*/
+	background: white;
+	color: white;
+	height: 100%;
+	min-height: 600px;
+	margin-top: -66px;
+	width: 85px;
+	float: right;
+	border: 1px solid transparent;
+	z-index: 1;
+	overflow: hidden;
+}
+.more-js{
+	background: #f9f9f9;
+	color: white;
+	height: 100%;
+	min-height: 600px;
+	margin-top: -66px;
+	width: 85px;
+	float: right;
+	border: 1px solid #ddd;
+	z-index: 1;
+	overflow: hidden;
+}
+.more p{
+	margin-left: 8px;
+}
+.more dt{
+	/*默认字白，背景蓝，不用新类*/
 	background: #3385ff;
 	color: white;
-	height: 18px;
-	width: 54px;
-	margin-left: 31px !important;
-	padding: 3px 5px;
-	margin-top: -3px !important;
-	margin-right: 10px !important;
+	height: 24px;
+	width: 70px;
+	margin-top: 16px;
+	margin-left: 6px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
 }
-/*更多产品js后出现部分*/
-.list{
-	z-index: 1;
-	width: 80px;
-	height: 100%;
-	background: black;
-	overflow: hidden;
+.more dd{
+	height: 62px;
+	width: 41px;
+	margin-left: 11px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+	/*默认是隐藏，js改成inline-block,不用新类*/
+	display: none;
+}
+.more a{
+	color: #999;
+	display: block;
+	font-size: 10px;
+	text-decoration: none;
+}
+.more a:hover{
+	text-decoration: underline;
+}
+.more span{
+	margin-left: -7px;
+	text-decoration: underline;
+}
+
+/*设置列表中各个小块*/
+.music{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -72px 0px;
+	display: block;
+	width: 42px;
+	height: 36px;
+}
+.picture{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -112px 0px;
+	display: block;
+	width: 36px;
+	height: 36px;
+	margin-left: 4px;
+}
+.know{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -36px 0px;
+	display: block;
+	width: 36px;
+	height: 36px;
+	margin-left: 2px;
+}
+.lib{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -144px 0px;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.fengyunbang{
+	background: url(../images/list-icon.png) no-repeat;
+	background-position: -180px 0px;
+	display: block;
+	width: 42px;
+	height: 36px;
 }
 
 /*------------------中间搜索部分---------------------*/
 .search{
-	height: 600px;
+	height: 485px;
+	width: 800px;
+	margin: 100px auto;
 }
 
 .logo{
@@ -97,7 +192,8 @@ a{
 .footer{
 	text-align: center;
 	height: 150px;
-	width: 100%;
+	width: 800px;
+	margin: 0px auto;
 }
 .footer p{
 	color: #999;

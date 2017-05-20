@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>百度一下，你就知道</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
@@ -16,13 +17,20 @@
 			<li><h3><a href="">贴吧</a></h3></li>
 			<li><a href="">登录</a></li>
 			<li><a href="">设置</a></li>
-			<li class="more"><span>更多产品</span></li>
 		</ul>
-		<div class="list">
-			
-		</div>
 	</div>
 
+	<!-- 顶部“更多产品”下拉框 -->
+	<dl class="more" id="more-all">
+			<dt id="more-dt">更多产品</dt>
+			<dd style="margin-top: 30px;"><a href=""><i class="music"></i><p>音乐</p></a></dd>
+			<dd><a href=""><i class="picture"></i><p>图片</p></a></dd>
+			<dd><a href=""><i class="know"></i><p>知道</p></a></dd>
+			<dd><a href=""><i class="lib"></i><p>文库</p></a></dd>
+			<dd><a href=""><i class="fengyunbang"></i><p style="margin-left: 4px;">风云榜</p></a></dd>
+			<dd style="width: 61px;padding-left: 8px;padding-right: 0px;"><a href=""><span>全部产品>></span></a></dd>
+	</dl>
+	
 	<!-- 搜索部分 -->
 	<div class="search">
 		<p style="text-align: center;"><img class="logo" src="images/logo.png"></p>
@@ -33,6 +41,7 @@
 			</form>
 		</div>
 	</div>
+
 	<!-- 底部水印部分 -->
 	<div class="footer">
 		<div style="margin-bottom: 20px;">
